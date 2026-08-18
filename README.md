@@ -8,9 +8,9 @@ The dashboard provides interactive analysis of **sales, profit, orders, customer
 
 # 📊 Dashboard Preview
 
-## 🏠 Overview
+## 1. 🏠 Overview
 
-The Overview dashboard provides a high-level summary of the business performance using KPIs and interactive visualizations.
+The Overview dashboard provides a high-level summary of the overall business performance using key performance indicators and interactive visualizations.
 
 <p align="center">
   <img src="./Overview.png" alt="Overview Dashboard" width="100%">
@@ -18,27 +18,27 @@ The Overview dashboard provides a high-level summary of the business performance
 
 ---
 
-## 👥 Customer Analysis
+## 2. 💰 Sales Analysis
 
-The Customer Analysis dashboard provides insights into customer performance, segments, and purchasing behavior.
+The Sales Analysis dashboard provides a detailed view of sales performance, profitability, sales trends, and business performance.
 
 <p align="center">
-  <img src="./Customer.png" alt="Customer Analysis Dashboard" width="100%">
+  <img src="./Sales.png" alt="Sales Analysis Dashboard" width="100%">
 </p>
 
 ---
 
-## 📋 Details
+## 3. 📦 Product Analysis
 
-The Details dashboard provides a detailed view of the available business and transactional data.
+The Product Analysis dashboard focuses on product and category performance and helps identify the best-performing products.
 
 <p align="center">
-  <img src="./Details.png" alt="Details Dashboard" width="100%">
+  <img src="./Product.png" alt="Product Analysis Dashboard" width="100%">
 </p>
 
 ---
 
-## 🌍 Market Analysis
+## 4. 🌍 Market Analysis
 
 The Market Analysis dashboard compares sales and profitability across different markets and geographical areas.
 
@@ -48,32 +48,32 @@ The Market Analysis dashboard compares sales and profitability across different 
 
 ---
 
-## 📦 Product Analysis
-
-The Product Analysis dashboard focuses on product and category performance and helps identify top-performing products.
-
-<p align="center">
-  <img src="./Product.png" alt="Product Analysis Dashboard" width="100%">
-</p>
-
----
-
-## 💰 Sales Analysis
-
-The Sales Analysis dashboard provides detailed insights into sales performance, profitability, and sales trends.
-
-<p align="center">
-  <img src="./Sales.png" alt="Sales Analysis Dashboard" width="100%">
-</p>
-
----
-
-## ⏰ Time Analysis
+## 5. ⏰ Time Analysis
 
 The Time Analysis dashboard analyzes sales and profit performance across different time periods.
 
 <p align="center">
   <img src="./Time.png" alt="Time Analysis Dashboard" width="100%">
+</p>
+
+---
+
+## 6. 👥 Customer Analysis
+
+The Customer Analysis dashboard provides insights into customer performance, customer segments, and purchasing behavior.
+
+<p align="center">
+  <img src="./Customer.png" alt="Customer Analysis Dashboard" width="100%">
+</p>
+
+---
+
+## 7. 📋 Details
+
+The Details dashboard provides a detailed view of the available business and transactional data.
+
+<p align="center">
+  <img src="./Details.png" alt="Details Dashboard" width="100%">
 </p>
 
 ---
@@ -94,9 +94,9 @@ The dashboard focuses on important business KPIs including:
 
 # 🔍 Business Analysis
 
-## 💰 Sales Analysis
+### 💰 Sales Analysis
 
-The dashboard allows users to analyze sales performance by:
+Analyze sales performance by:
 
 * Products
 * Categories
@@ -105,7 +105,7 @@ The dashboard allows users to analyze sales performance by:
 * Regions
 * Time periods
 
-## 📦 Product Analysis
+### 📦 Product Analysis
 
 Analyze:
 
@@ -114,16 +114,7 @@ Analyze:
 * Product profitability
 * Product contribution to total sales
 
-## 👥 Customer Analysis
-
-Analyze:
-
-* Customer performance
-* Customer segments
-* Purchasing behavior
-* Customer contribution to sales
-
-## 🌍 Market Analysis
+### 🌍 Market Analysis
 
 Compare:
 
@@ -132,7 +123,7 @@ Compare:
 * Sales performance
 * Profitability
 
-## ⏰ Time Analysis
+### ⏰ Time Analysis
 
 Analyze business trends by:
 
@@ -141,6 +132,15 @@ Analyze business trends by:
 * Day
 * Sales
 * Profit
+
+### 👥 Customer Analysis
+
+Analyze:
+
+* Customer performance
+* Customer segments
+* Purchasing behavior
+* Customer contribution to sales
 
 ---
 
@@ -199,14 +199,14 @@ COSMETICS/
 │
 ├── COSMETICS.pbix
 ├── COSMETICS.rar
+├── Overview.png
+├── Sales.png
+├── Product.png
+├── Market.png
+├── Time.png
 ├── Customer.png
 ├── Details.png
-├── Market.png
-├── Overview.png
-├── Product.png
-├── README.md
-├── Sales.png
-└── Time.png
+└── README.md
 ```
 
 ---
@@ -241,10 +241,10 @@ This dashboard helps businesses:
 * ✅ Professional Power BI Dashboard
 * ✅ Interactive multi-page reporting
 * ✅ Sales & Profit Analysis
-* ✅ Customer Analysis
 * ✅ Product Analysis
 * ✅ Market Analysis
 * ✅ Time Analysis
+* ✅ Customer Analysis
 * ✅ Detailed Business Analysis
 * ✅ KPI-driven reporting
 * ✅ Interactive filtering and navigation
