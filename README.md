@@ -1,98 +1,102 @@
 # 💄 Cosmetics Sales & Business Intelligence Dashboard
 
-A professional **Power BI Business Intelligence Dashboard** designed to analyze cosmetics sales performance and transform raw business data into meaningful, interactive insights.
+A professional **Power BI Business Intelligence Dashboard** designed to analyze cosmetics sales performance and transform business data into clear and actionable insights.
 
-The dashboard provides a comprehensive view of **sales, profit, orders, customers, products, markets, and time-based performance** through multiple analytical pages.
-
----
-
-## 📊 Dashboard Preview
-
-### 🏠 Overview
-
-The Overview page provides a high-level summary of the business performance using key KPIs and interactive visuals.
-
-![Overview Dashboard](images/Overview.png)
+The dashboard provides interactive analysis of **sales, profit, orders, customers, products, markets, and time-based performance**.
 
 ---
 
-### 📈 Analysis
+# 📊 Dashboard Preview
 
-The Analysis page provides a deeper analytical view of the business performance, helping identify trends, comparisons, and important performance indicators.
+## 🏠 Overview
 
-![Analysis Dashboard](images/analysis.png)
+The Overview dashboard provides a high-level summary of the business performance using KPIs and interactive visualizations.
 
----
-
-### 👥 Customer Analysis
-
-The Customer Analysis page focuses on customer performance, customer segments, and purchasing behavior.
-
-![Customer Dashboard](images/Customer.png)
+<p align="center">
+  <img src="./Overview.png" alt="Overview Dashboard" width="100%">
+</p>
 
 ---
 
-### 📋 Details
+## 👥 Customer Analysis
 
-The Details page provides a detailed view of the underlying business data and transactional performance.
+The Customer Analysis dashboard provides insights into customer performance, segments, and purchasing behavior.
 
-![Details Dashboard](images/Details.png)
-
----
-
-### 🌍 Market Analysis
-
-The Market Analysis page compares sales and profitability across different markets and geographical areas.
-
-![Market Dashboard](images/Market.png)
+<p align="center">
+  <img src="./Customer.png" alt="Customer Analysis Dashboard" width="100%">
+</p>
 
 ---
 
-### 📦 Product Analysis
+## 📋 Details
 
-The Product Analysis page evaluates product and category performance and identifies the products contributing most to sales and profit.
+The Details dashboard provides a detailed view of the available business and transactional data.
 
-![Product Dashboard](images/Product.png)
-
----
-
-### 💰 Sales Analysis
-
-The Sales Analysis page provides detailed insights into sales performance, trends, categories, and profitability.
-
-![Sales Dashboard](images/Sales.png)
+<p align="center">
+  <img src="./Details.png" alt="Details Dashboard" width="100%">
+</p>
 
 ---
 
-### ⏰ Time Analysis
+## 🌍 Market Analysis
 
-The Time Analysis page explores sales and profit performance across different time periods, including years, months, and days.
+The Market Analysis dashboard compares sales and profitability across different markets and geographical areas.
 
-![Time Dashboard](images/Time.png)
+<p align="center">
+  <img src="./Market.png" alt="Market Analysis Dashboard" width="100%">
+</p>
+
+---
+
+## 📦 Product Analysis
+
+The Product Analysis dashboard focuses on product and category performance and helps identify top-performing products.
+
+<p align="center">
+  <img src="./Product.png" alt="Product Analysis Dashboard" width="100%">
+</p>
+
+---
+
+## 💰 Sales Analysis
+
+The Sales Analysis dashboard provides detailed insights into sales performance, profitability, and sales trends.
+
+<p align="center">
+  <img src="./Sales.png" alt="Sales Analysis Dashboard" width="100%">
+</p>
+
+---
+
+## ⏰ Time Analysis
+
+The Time Analysis dashboard analyzes sales and profit performance across different time periods.
+
+<p align="center">
+  <img src="./Time.png" alt="Time Analysis Dashboard" width="100%">
+</p>
 
 ---
 
 # 🎯 Key Performance Indicators
 
-The dashboard focuses on important business KPIs such as:
+The dashboard focuses on important business KPIs including:
 
 * 💰 **Total Sales**
 * 📈 **Total Profit**
 * 🛒 **Total Orders**
 * 📦 **Total Quantity**
+* 👥 **Total Customers**
 * 📊 **Profit Margin**
 * 💵 **Average Order Value**
-* 👥 **Total Customers**
-* 🏆 **Top Products**
-* 🌍 **Market Performance**
 
 ---
 
-# 🔍 Dashboard Analysis
+# 🔍 Business Analysis
 
 ## 💰 Sales Analysis
 
-Analyze sales performance across:
+The dashboard allows users to analyze sales performance by:
 
 * Products
 * Categories
@@ -100,34 +104,31 @@ Analyze sales performance across:
 * Customers
 * Regions
 * Time periods
-* Customer segments
 
 ## 📦 Product Analysis
 
-Identify:
+Analyze:
 
 * Top-performing products
 * Best-selling categories
 * Product profitability
 * Product contribution to total sales
-* Category performance
 
 ## 👥 Customer Analysis
 
-Understand:
+Analyze:
 
 * Customer performance
 * Customer segments
-* Customer purchasing behavior
-* Sales contribution by customer
+* Purchasing behavior
+* Customer contribution to sales
 
 ## 🌍 Market Analysis
 
-Compare business performance across:
+Compare:
 
 * Markets
 * Regions
-* Countries
 * Sales performance
 * Profitability
 
@@ -138,26 +139,24 @@ Analyze business trends by:
 * Year
 * Month
 * Day
-* Period
-* Sales trends
-* Profit trends
+* Sales
+* Profit
 
 ---
 
 # ⚙️ Interactive Features
 
-The dashboard includes interactive Power BI features such as:
+The dashboard includes:
 
-* 🔎 Dynamic filtering
-* 📅 Date and time filtering
-* 🌍 Market and region filtering
+* 🔎 Interactive filters
+* 📅 Date filtering
+* 🌍 Market filtering
 * 📦 Product filtering
-* 👥 Customer segmentation
+* 👥 Customer filtering
 * 📊 Interactive charts
-* 🖱️ Cross-filtering between visuals
+* 🖱️ Cross-filtering
 * 🧭 Page navigation
 * 📌 KPI cards
-* 📈 Dynamic business analysis
 
 ---
 
@@ -168,22 +167,20 @@ The dashboard includes interactive Power BI features such as:
 Used for:
 
 * Data visualization
-* Data modeling
 * Dashboard development
-* KPI creation
+* Data modeling
 * Interactive reporting
-* Business analysis
+* Business intelligence
 
 ### DAX
 
-Used to create:
+Used for:
 
 * Measures
 * KPIs
 * Calculated metrics
-* Profitability calculations
 * Sales calculations
-* Time-based analysis
+* Profit calculations
 
 ### Power Query
 
@@ -192,27 +189,24 @@ Used for:
 * Data cleaning
 * Data transformation
 * Data preparation
-* Data integration
 
 ---
 
 # 📁 Repository Structure
 
 ```text
-COSMETICS-SALES-DASHBOARD/
+COSMETICS/
 │
 ├── COSMETICS.pbix
+├── COSMETICS.rar
+├── Customer.png
+├── Details.png
+├── Market.png
+├── Overview.png
+├── Product.png
 ├── README.md
-│
-└── images/
-    ├── Overview.png
-    ├── analysis.png
-    ├── Customer.png
-    ├── Details.png
-    ├── Market.png
-    ├── Product.png
-    ├── Sales.png
-    └── Time.png
+├── Sales.png
+└── Time.png
 ```
 
 ---
@@ -221,16 +215,16 @@ COSMETICS-SALES-DASHBOARD/
 
 1. Clone or download the repository.
 2. Open `COSMETICS.pbix` using **Microsoft Power BI Desktop**.
-3. Navigate between the dashboard pages.
+3. Navigate through the dashboard pages.
 4. Use the available filters and slicers.
-5. Interact with the charts and KPIs.
-6. Explore the different analytical perspectives.
+5. Interact with the charts and KPI cards.
+6. Explore the different business insights.
 
 ---
 
 # 💡 Business Value
 
-This dashboard can help businesses:
+This dashboard helps businesses:
 
 * Monitor overall sales performance.
 * Track profitability.
@@ -239,23 +233,22 @@ This dashboard can help businesses:
 * Compare market performance.
 * Discover sales trends.
 * Support data-driven decision making.
-* Quickly identify areas of improvement.
 
 ---
 
 # ⭐ Project Highlights
 
 * ✅ Professional Power BI Dashboard
-* ✅ Multi-page Business Intelligence solution
-* ✅ Interactive navigation
-* ✅ KPI-driven analysis
-* ✅ Sales & Profit analysis
-* ✅ Customer analysis
-* ✅ Product analysis
-* ✅ Market analysis
-* ✅ Time-based analysis
-* ✅ Detailed business reporting
-* ✅ Clean and consistent dashboard design
+* ✅ Interactive multi-page reporting
+* ✅ Sales & Profit Analysis
+* ✅ Customer Analysis
+* ✅ Product Analysis
+* ✅ Market Analysis
+* ✅ Time Analysis
+* ✅ Detailed Business Analysis
+* ✅ KPI-driven reporting
+* ✅ Interactive filtering and navigation
+* ✅ Business-focused data visualization
 
 ---
 
@@ -267,10 +260,14 @@ This dashboard can help businesses:
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you find this project useful, consider giving the repository a ⭐ and sharing your feedback.
 
 ---
 
-> **Built with Microsoft Power BI to turn cosmetics sales data into actionable business insights.** 💄📊
+<p align="center">
+  <strong>💄 Cosmetics Sales Dashboard</strong>
+  <br>
+  Turning sales data into actionable business insights with Power BI.
+</p>
